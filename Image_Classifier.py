@@ -28,7 +28,7 @@ import imghdr
 # In[692]:
 
 
-data_dir = 'data' 
+data_dir = 'dataset' 
 
 
 # In[693]:
@@ -64,7 +64,7 @@ from matplotlib import pyplot as plt
 # In[706]:
 
 
-data = tf.keras.utils.image_dataset_from_directory('data')
+data = tf.keras.utils.image_dataset_from_directory('dataset')
 
 
 # In[707]:
