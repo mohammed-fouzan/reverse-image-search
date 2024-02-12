@@ -295,7 +295,7 @@ import cv2
 # In[584]:
 
 
-img = cv2.imread('shoetest.jpg')
+img = cv2.imread('shoetest.jpeg')
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 plt.show()
 
